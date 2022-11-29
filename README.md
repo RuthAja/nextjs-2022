@@ -1,2 +1,2 @@
 # Learn NextJS 13
-test
+first learning nextjs 13 and try to make website metaverse
