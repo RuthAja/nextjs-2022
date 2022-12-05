@@ -16,7 +16,7 @@ const Page = () => (
             <WhatsNew />
         </div>
         <World />
-        <div className="relative">
+        <div className='relative'>
             <Insights />
             <div className='z-0 gradient-04' />
             <Feedback />
