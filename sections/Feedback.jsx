@@ -31,12 +31,23 @@ const Feedback = () => (
                 </div>
                 <p
                     className={
-                        'mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white '
+                        'mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white '
                     }>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, officiis, vel animi dignissimos
-                    voluptas ullam quasi dolorem labore adipisci ex, consectetur blanditiis. Iure possimus consectetur
-                    adipisci ipsum? Ipsum, iusto harum.
+                    voluptas ullam quasi dolorem labore adipisci ex, consectetur blanditiis.
                 </p>
+            </motion.div>
+            <motion.div
+                variants={fadeIn('left', 'tween', 0.2, 1)}
+                className={'relative flex-1 flex justify-center items-center'}>
+                <img
+                    src='./planet-09.png'
+                    alt='planet 09'
+                    className={'w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px] '}
+                />
+                <motion.div variants={zoomIn(0.4, 1)} className={'lg:block hidden absolute -left-[10%] top-[3%]  '}>
+                    <img src='./stamp.png' alt='stamp' className={'w-[150px] h-[155px] object-contain'} />
+                </motion.div>
             </motion.div>
         </motion.div>
     </section>
